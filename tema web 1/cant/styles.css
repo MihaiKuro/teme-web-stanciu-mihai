@@ -1,0 +1,56 @@
+body{
+    background-image: url("map.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.header{
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.header h1{
+    font-size: 70px;
+}
+.header p{
+    font-size: 20px;
+}
+
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 40px;
+    border: #000000;
+    border-radius: 50px;
+    margin: 20px;
+    
+    
+}
+.flex-box .forgot_username,
+.flex-box .forgot_password,
+.flex-box .forgot_email{
+    background-color: rgba(204, 189, 189, 0.7);
+    flex: 1;
+    text-align: center;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    padding: 50px;
+    padding-top: 10px;
+    margin: 20px;
+       
+
+}
+.flex-box .forgot_username i,
+.flex-box .forgot_password i,
+.flex-box .forgot_email i{
+    font-size: 90px;
+    color: #ffffff;
+    padding: 50px;
+}
+
